@@ -4,7 +4,6 @@
 
 ;;; Commentary: Use scrape.el to get information about google scholar
 ;;; search results
-;; 
 
 (require 'scrape)
 
