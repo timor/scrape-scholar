@@ -106,7 +106,7 @@ cited-by-link does not contain a correct url unless cited-by-number is
 						    "gs_ri"))))
 	 (cited-bys (scrape-scholar-all-cited item)))
     (append item
-	    `(citations ,cited-bys))))
+	    `(:citations ,cited-bys))))
 
 
 (provide 'scrape-scholar)
